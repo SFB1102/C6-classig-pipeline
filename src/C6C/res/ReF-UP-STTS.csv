@@ -1,0 +1,98 @@
+POS	STTS
+--	XY
+$!	$.
+$(	$(
+$,	$,
+$.	$.
+$:	$.
+$;	$.
+$?	$.
+$MK	$,	Sind keine echten Tokens
+$MSBI	$.	Sind keine echten Tokens
+$QL	$(	Sind keine echten Tokens
+$QR	$(	Sind keine echten Tokens
+ADJA	ADJA
+ADJD	ADJD
+ADJN	ADJD
+ADJS	ADJA
+ADJV	ADJD	Mischung von ADJD und ADV
+ADV	ADV	Fehler in der Annotation, wäre auch AVD
+APPO	APPO
+APPR	APPR
+APPRDARTB	APPRART
+APZR	APZR
+AVD	ADV
+AVNEG	ADV
+AVREL	ADV
+AVW	PWAV
+CARD	CARD
+DARTB	ART	Bestimmter Artikel
+DARTU	ART	Unbestimmter Artikel
+DDEM	PDAT
+DINDEF	PIAT
+DPOS	PPOSAT
+DW	PWAT	Scheint fast immer vor Nomen zu stehen	
+FM	FM
+ITJ	ITJ
+KOKOM	KOKOM
+KON	KON
+KOUI	KOUI
+KOUS	KOUS
+NA	NN
+NE	NE
+PAVAP	ADV	PAV passt nicht gut
+PAVD	ADV
+PAVDAP	PAV
+PAVREL	ADV
+PAVRELAP	PAV
+PAVW	PWAV
+PAVWAP	PWAV
+PDEM	PDS
+PINDEF	PIS
+PPER	PPER
+PPOS	PPOSS
+PRELAT	PRELAT
+PRELS	PRELS
+PRF	PRF
+PTKA	PTKA
+PTKANT	PTKANT
+PTKNEG	PTKNEG
+PTKREL	ADV	Genutzt für "die (PRELS) da (ADV) Verb"
+PTKVZ	PTKVZ
+PTKZU	PTKZU
+PW	PWS
+PWAV	PWAV
+SPELL	XY	Ein Wort (4 Fälle)
+TRUNC	TRUNC
+VAFIN	VAFIN
+VAIMP	VAIMP
+VAINF	VAINF
+VAINFS	VAINF
+VAPP	VAPP
+VAPPA	ADJA	Nur 4 Fälle, alle wie ADJA verwendet
+VAPPD	ADJD	Nur 2 Fälle, ähnlich zu ADJD
+VAPPN	VAPP	Nur 1 Fall
+VAPSA	ADJA	1 Fall
+VAPSD	ADJD	3 Fälle
+VAPSN	VAPP	3 Fälle, könnte auch ADJD sein
+VAPSS	NN	1 Fall, Nominalisierung
+VMFIN	VMFIN
+VMIMP	VMIMP
+VMINF	VMINF
+VMINFS	NN	2 Fälle, Nominalisierung
+VMPP	VMPP
+VVFIN	VVFIN
+VVIMP	VVIMP
+VVINF	VVINF
+VVINFS	NN	Nominalisierungen
+VVIZU	VVIZU
+VVPP	VVPP
+VVPPA	ADJA
+VVPPD	ADJD
+VVPPN	VVPP	Könnte tlw. auch ADJD sein
+VVPPS	NN	Nominalisierung
+VVPS	VVPP	Nur 2 Fälle
+VVPSA	ADJA
+VVPSD	ADJD
+VVPSN	VVPP
+VVPSS	NN	Nominalisierung

@@ -1,0 +1,123 @@
+#1|pos	#1|posLemma	count	Kandidaten	STTS	Anmerkungen
+--	--	121694	XY	XY	scheint für unvollständige/nicht erkennbare Wörter genutzt zu werden
+--	DD	3		ART	z.B. in des Wasser
+--	NE	51		NE	
+$_	$_	275434	$. $, $(	$. $, $(	abhängig von Wortform und punc-Annotation
+ADJ	FM	1		FM	s. STTS
+ADJA	ADJ	64455		ADJA	s. HiTS
+ADJA	FM	1207		FM	Laut STTS FM immer als FM, Ausnahme nur Eigennamen
+ADJA	VAPP	3		ADJA	
+ADJA	VAPS	12		ADJA	
+ADJA	VMPS	7		ADJA	
+ADJA	VVPP	4226		ADJA	s. HiTS
+ADJA	VVPS	872		ADJA	s. HiTS
+ADJD	ADJ	26193		ADJD	s. HiTS
+ADJD	FM	33		FM	s. STTS
+ADJD	VVPP	1834		ADJD	
+ADJN	ADJ	4969		ADJD	s. HiTS
+ADJN	FM	49		FM	s. STTS
+ADJN	VVPP	349		ADJD	
+ADJN	VVPS	35		ADJD	
+ADJS	ADJ	1174	NN, ADJA	ADJA	Im STTS bei Großschreibung NN, aber in historischen Daten quasi keine Großschreibung, daher immer ADJA
+ADJS	FM	2	NN, ADJA	FM	s. STTS
+ADJS	VAPP	1	NN, ADJA	ADJA	
+ADJS	VAPS	5	NN, ADJA	ADJA	
+ADJS	VMPS	5	NN, ADJA	ADJA	
+ADJS	VVPP	374	NN, ADJA	ADJA	
+ADJS	VVPS	416	NN, ADJA	ADJA	
+APPR	AP	148839	APPR, APPRART	APPR	Bei APPRART in ReM zwei Token APPR + ART
+APPR	FM	889		FM	s. STTS
+AVD	AVD	87402		ADV	s. HiTS
+AVD	AVD-KO	67493		ADV	s. HiTS
+AVD	FM	172		FM	s. STTS
+AVD-KO*	AVD-KO	528		ADV	
+AVG	AVG	2626		PWAV	s. HiTS
+AVG	FM	2		FM	s. STTS
+AVW	AVW	5160		PWAV	s. HiTS
+CARDA	CARD	9632		CARD	s. HiTS
+CARDA	FM	107		FM	s. STTS
+CARDD	CARD	95		CARD	s. HiTS
+CARDN	CARD	142		CARD	Existiert im STTS eigentlich nicht, s. HiTS
+CARDN	FM	4		FM	s. STTS
+CARDS	CARD	2785		CARD	s. HiTS
+CARDS	FM	6		FM	s. STTS
+DDA	DD	11853		PDAT	s. HiTS
+DDART	DD	141816		ART	s. HiTS
+DDD	DD	918		PDS	immer für "selbe(r/n/…)" -> PDS im STTS
+DDN	DD	290	ADV, PDS, PDAT	PDAT	Existiert im STTS nicht, nachgestelltes "selbst", "dieser", "solch" oder "jener" wäre im STTS PDS/PDAT
+DDS	DD	43403		PDS	s. HiTS
+DGA	DG	434		PWAT	s. HiTS
+DGS	DG	158		PWS	s. HiTS
+DIA	DI	26638	ART, PIAT	PIAT	Für MHD PIAT, s. HiTS
+DIA	FM	652		FM	s. STTS
+DIART	DD	19563		ART	s. HiTS
+DID	DI	1893		PIS	analog zu DDD nur indefinit, z.B. "alle"
+DIN	DI	1261	PIS, PIAT	PIAT	Existiert im STTS nicht, analog zu DDN nur indefinit
+DIN	FM	26		FM	s. STTS
+DIS	DI	6777		PIS	s. HiTS
+DIS	FM	2		FM	s. STTS
+DPOSA	DPOS	56157		PPOSAT	s. HiTS
+DPOSD	DPOS	48		PPOSS	s. HiTS
+DPOSN	DPOS	6147	PPOSAT	PPOSAT	Existiert im STTS nicht, ist ein PPOSAT in nachgestelt
+DPOSS	DPOS	602		NN	s. HiTS
+DRELS	DD	25203	PRELS, PRELAT	PRELS	Eigentlich abhängig vom folgenden Wort, aber scheint (fast) immer PRELS zu sein
+DWA	DW	462		PWAT	s. HiTS
+DWD	DW	19	PWS, PWAT, PWAV	PWS	z.B. "welch", Verwendung wie PWS
+DWS	DW	145		PWS	s. HiTS
+FM	FM	28529		FM	s. HiTS
+ITJ	FM	241		FM	s. STTS
+ITJ	ITJ	2135		ITJ	s. HiTS
+KO*	FM	127		FM	s. STTS
+KO*	KO	21311	KON, KOUS	KOUS	sieht mehr nach modernem KOUS aus
+KOKOM	KO	1932		KOKOM	s. HiTS
+KON	AVD	396		KON	s. HiTS
+KON	FM	401		FM	s. STTS
+KON	KO	83466		KON	s. HiTS
+KOUS	FM	22		FM	s. STTS
+KOUS	KO	41308		KOUS	s. HiTS
+NA	FM	5239		FM	s. STTS
+NA	NA	353567		NN	s. HiTS
+NA	NE	657		NN	
+NA	VAINF	226		NN	
+NA	VVINF	4239		NN	s. HiTS
+NE	FM	5513		NE	Laut STTS FM als NE taggen, wenn möglich
+NE	NA	56		NE	
+NE	NE	39117		NE	s. HiTS
+PAVAP	AP	15423	PAV	APPR	Existiert im STTS nicht, präpositionaler Teil von PAV
+PAVD	AVD	14866	PAV	ADV	Existiert im STTS nicht, adverbialer Teil von PAV
+PAVG	AVG	18	PWAV	PWAV	
+PAVW	AVW	466	PWAV	PWAV	
+PG	PG	3637	PWS, PWAT	PWS	In Belegen verwendet wie PWS
+PI	NA	6639		PIS	s. HiTS
+PI	PI	227		PIS	s. HiTS
+PPER	PPER	204602		PPER	s. HiTS
+PRF	PPER	3200		PRF	s. HiTS
+PRF	PRF	7495		PRF	s. HiTS
+PTK	FM	20		FM	s. STTS
+PTK	PTK	319	ADV	ADV	HiTS: Zum anderen kann oberdeutsch wie mitteldeutsch bis zur ersten Hälfte des 13. Jh., danach nur noch vereinzelt das zweite so erhalten bleiben: swer so. In diesen Fällen taggen wir so als Partikel (PTK)
+PTK*	PTK	1	ADV, KOKOM	ADV	am Beleg entschieden: "niuwan"
+PTKA	PTK	1011		PTKA	s. HiTS
+PTKANT	PTKANT	348		PTKANT	
+PTKNEG	FM	1		FM	s. STTS
+PTKNEG	PI	11864		PTKNEG	s. HiTS
+PTKNEG	PTK	12341		PTKNEG	s. HiTS
+PTKVZ	PTK	13286		PTKVZ	s. HiTS
+PW	PW	3998	PWS, PWAT	PWS	In Belegen verwendet wie PWS
+VAFIN	VA	82934		VAFIN	s. HiTS
+VAIMP	VA	533		VAIMP	s. HiTS
+VAINF	VA	6819		VAINF	s. HiTS
+VAPP	VA	940		VAPP	s. HiTS
+VAPS	VA	33		ADJD	wie VVPS-VV
+VMFIN	VM	40260		VMFIN	s. HiTS
+VMIMP	VM	58		VMIMP	s. HiTS
+VMINF	VM	70		VMINF	s. HiTS
+VMPP	VM	3		VMPP	s. HiTS
+VMPS	VM	2		ADJD	wie VVPS-VV
+VV	VV	2		VVINF	an Belegen entschieden
+VVFIN	FM	643		FM	s. STTS
+VVFIN	VV	155243		VVFIN	s. HiTS
+VVIMP	FM	96		FM	s. STTS
+VVIMP	VV	12388		VVIMP	s. HiTS
+VVINF	VV	44320		VVINF	s. HiTS
+VVPP	VV	40399		VVPP	s. HiTS
+VVPS	VV	1639		ADJD	s. HiTS

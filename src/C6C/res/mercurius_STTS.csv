@@ -1,0 +1,62 @@
+$!	$.	Ausrufezeichen
+$(	$(	Sonstige Satzzeichen; bei FORM "/" ändern zu $,
+$,	$,	Komma
+$.	$.	Punkt
+$:	$.	Doppelpunkt		
+$;	$.	Semikolon
+$?	$.	Fragezeichen
+--	XY	--
+ADJA	ADJA	Attributives Adjektiv
+ADJD	ADJD	Adverbiales oder prädikatives Adjektiv
+ADV	ADV	Adverb
+APPO	APPO	Postposition
+APPR	APPR	Präposition; Zirkumposition links
+APPRART	APPRART	Präposition mit Artikel
+APZR	APZR	Zirkumposition rechts
+ART	ART	Bestimmter oder unbestimmter Artikel
+CARD	CARD	Kardinalzahl
+FM	FM	Fremdsprachliches Material
+ITJ	ITJ	Interjektion
+KOKOM	KOKOM	Vergleichspartikel, ohne Satz
+KOMPE	#	Kompositions-Erstglied; Tag des folgenden Wortes übernehmen
+KON	KON	Nebenordnende Konjunktion
+KOUI	KOUI	Unterordnende Konjunktion mit zu und Infinitiv
+KOUS	KOUS	Unterordnende Konjunktion mit Satz
+NE	NE	Eigennamen
+NN	NN	Normales Nomen
+NNE	NN	Kombination aus Nomen und Eigenname (Kommt nicht vor)
+PDAT	PDAT	Attribuierendes Demonstrativpronomen
+PDS	PDS	Substituierendes Demonstrativpronomen
+PIAT	PIAT	Attribuierendes Indefinitpronomen
+PIS	PIS	Substituierendes Indefinitpronomen
+PPER	PPER	Ersetzbares Personalpronomen
+PPOSAT	PPOSAT	Attribuierendes Possessivpronomen
+PPOSS	PPOSS	Substituierendes Possessivpronomen
+PRELAT	PRELAT	Attribuierendes Relativpronomen
+PRELS	PRELS	Substituierendes Relativpronomen
+PRF	PRF	Reflexives Personalpronomen
+PROAV	PAV	Pronominaladverb
+PTKA	PTKA	Partikel bei Adjektiv oder Adverb
+PTKANT	PTKANT	Antwortpartikel
+PTKNEG	PTKNEG	Negationspartikel
+PTKVZ	PTKVZ	Abgetrennter Verbzusatz
+PTKZU	PTKZU	zu vor Infinitiv
+PWAT	PWAT	Attribuierendes Interrogativpronomen
+PWAV	PWAV	Adverbiales Interrogativ- oder Relativpronomen
+PWS	PWS	Substituierendes Interrogativpronomen
+TRUNC	TRUNC	Trunliertes Erstglied einer Koordination
+UNKNOWN	XY	Unbekanntes Tag aus Einlesen aus Korpusdatei (Kommt nicht vor)
+VAFIN	VAFIN	Finites Verb, aux
+VAIMP	VAIMP	Imperativ, aux
+VAINF	VAINF	Infinitiv, aux
+VAPP	VAPP	Partizip Perfekt, aux
+VMFIN	VMFIN	Finites Verb, modal
+VMINF	VMINF	Infinitiv, modal
+VMPP	VMPP	Partizip Perfekt, modal
+VVFIN	VVFIN	Finites Verb, voll
+VVIMP	VVIMP	Imperativ, voll
+VVINF	VVINF	Infinitiv, voll
+VVIZU	VVIZU	Infinitiv mit zu, voll
+VVPG	ADJD	Partizip Präsens; voll (als adverbiales Partizip laut STTS = ADJD)
+VVPP	VVPP	Partizip Perfekt, voll
+XY	XY	Nichtwort, Sonderzeichen
