@@ -477,7 +477,8 @@ class Span(object):
                 #Span continues
                 elif annotation.startswith("I-"):
                     #Add token to the last span on the stack
-                    span_stack[i].append_element(tok)    
+                    if i == len(annotations)-1:
+                        span_stack[i].append_element(tok)  
 
         #Add sentence final span from stack to list
         if span_stack:
