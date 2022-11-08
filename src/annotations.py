@@ -6,7 +6,7 @@ from C6C.src.document import Token, Tree
 
 class Span(object):
 
-    def __init__(self, label, elements=[], parent_span = None, **kwargs):
+    def __init__(self, label, elements=None, parent_span = None, **kwargs):
         """
         Initialize a span object with a given label.
 
@@ -25,8 +25,9 @@ class Span(object):
 
         #Set included elements
         self.elems = []
-        for element in elements:
-            self.append_element(element)
+        if elements != None and isinstance(elements, list):
+            for element in elements:
+                self.append_element(element)
 
         #Set additional attributes
         for key in kwargs:
@@ -1439,7 +1440,7 @@ class Span(object):
 class MovElem(Span):
 
     def __init__(self, label, elements, position, MovElemID = None, Antecedent = None, 
-                 parent_span = None, headToks = [], vposition = None, **kwargs):
+                 parent_span = None, headToks = None, vposition = None, **kwargs):
         """
         Initialize a moving element as a special type of span.
 
@@ -1522,7 +1523,10 @@ class MovElem(Span):
         """
         Set the list of head tokens.
         """
-        self.heads = headToks
+        if headToks != None:
+            self.heads = headToks
+        else:
+            self.heads = []
 
     ########################
 
@@ -1853,13 +1857,13 @@ class MovElem(Span):
 
 class Antecedent(Span):
 
-    def __init__(self, headTokens = [], label = "Antec", elements = [], 
+    def __init__(self, headTokens = None, label = "Antec", elements = None, 
                  MovElemID = None, parent_span = None, **kwargs):
         """
         Initialize an antecedent as a special type of span.
 
         An antecedent can have:
-        - head token(s)
+        - head token(s) (list)
         - a label (Antec)
         - a list of included elements
         - the ID of the corresponding MovElem
@@ -1886,7 +1890,10 @@ class Antecedent(Span):
         """
         Set the list of head tokens.
         """
-        self.heads = headTokens
+        if headTokens != None:
+            self.heads = headTokens
+        else:
+            self.heads = []
 
     ######################
 

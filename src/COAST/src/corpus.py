@@ -67,10 +67,10 @@ class Token:
 
 class Sentence:
 
-    def __init__(self, tokens=[], **kwargs):
+    def __init__(self, tokens=None, **kwargs):
         self.n_toks = 0
         self.tokens = list()
-        if tokens:
+        if tokens != None and isinstance(tokens, list):
             for tok in tokens:
                 self.add_token(tok)
         for key,val in kwargs.items():
@@ -120,7 +120,7 @@ class Sentence:
 
 class Doc(object):
 
-    def __init__(self, filename, sentences = [], **kwargs):
+    def __init__(self, filename, sentences = None, **kwargs):
 
         self.filename = filename
 
@@ -130,7 +130,7 @@ class Doc(object):
         self.n_sents = 0
         
         self.sentences = []
-        if sentences:
+        if sentences != None and isinstance(sentences, list):
             for sent in sentences:
                 self.add_sent(sent)
                 
@@ -159,7 +159,7 @@ class Doc(object):
 
 class Corpus(object):
 
-    def __init__(self, files = [], **kwargs):
+    def __init__(self, files = None, **kwargs):
 
         for key,val in kwargs.items():
             self.__dict__[key] = val
@@ -167,7 +167,7 @@ class Corpus(object):
         self.n_files = 0
 
         self.files = []
-        if files:
+        if files != None and isinstance(files, list):
             for f in files:
                 self.add_file(f)
 

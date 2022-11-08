@@ -15,7 +15,7 @@ from copy import deepcopy
 
 #####################################
 
-def precision(evaldict, version="traditional", weights={}):
+def precision(evaldict, version="traditional", weight_dict=None):
     """
     Calculate traditional, fair or weighted precision value.
     
@@ -43,7 +43,7 @@ def precision(evaldict, version="traditional", weights={}):
     - A weight dictionary to specify how much an error type should
       count as one of the traditional error types (or as true positive). 
       Per default, every traditional error is counted as one error (or true positive)
-      and each error of the additional types is counted 
+      and each error of the additional types is counted
       as half false positive and half false negative:
 
       {"TP" : {"TP" : 1},
@@ -101,7 +101,15 @@ def precision(evaldict, version="traditional", weights={}):
 
         #Set weights to default 
         #for fair evaluation or if no weights are given      
-        elif version == "fair" or not weights:
+        elif version == "fair" or not weight_dict:
+            weights = default_fair_weights
+        
+        #Use given weights
+        elif weight_dict != None and isinstance(weight_dict, dict):
+            weights = weight_dict
+        
+        #Otherwise use default weights
+        else:
             weights = default_fair_weights
 
         #Add weighted errors to true positive count
@@ -123,7 +131,7 @@ def precision(evaldict, version="traditional", weights={}):
 
 ######################
 
-def recall(evaldict, version="traditional", weights={}):
+def recall(evaldict, version="traditional", weight_dict=None):
     """
     Calculate traditional, fair or weighted recall value.
     
@@ -151,7 +159,7 @@ def recall(evaldict, version="traditional", weights={}):
     - A weight dictionary to specify how much an error type should
       count as one of the traditional error types (or as true positive). 
       Per default, every traditional error is counted as one error (or true positive)
-      and each error of the additional types is counted 
+      and each error of the additional types is counted
       as half false positive and half false negative:
 
       {"TP" : {"TP" : 1},
@@ -208,8 +216,16 @@ def recall(evaldict, version="traditional", weights={}):
             weights = traditional_weights
 
         #Set weights to default 
-        #for fair evaluation or if no weights are given      
-        elif version == "fair" or not weights:
+        #for fair evaluation or if no weights are given     
+        elif version == "fair" or not weight_dict:
+            weights = default_fair_weights
+        
+        #Use given weights
+        elif weight_dict != None and isinstance(weight_dict, dict):
+            weights = weight_dict
+        
+        #Otherwise use default weights
+        else:
             weights = default_fair_weights
 
         #Add weighted errors to true positive count

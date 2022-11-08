@@ -2,7 +2,7 @@ import re, os
 
 ##############################
 
-def normalize_filename(filename, remove=[]):
+def normalize_filename(filename, remove=None):
 
     #Replace spaces, slash and backslash with underscore
     filename = re.sub(r"[\s\t\n\\/]", "_", filename)
@@ -45,8 +45,9 @@ def normalize_filename(filename, remove=[]):
     filename = re.sub(r"(\s+|[:;,/])", "_", filename)
 
     #Remove custom strings
-    for rem in remove:
-        filename = re.sub(rem, "", filename)
+    if remove != None and isinstance(remove, list):
+        for rem in remove:
+            filename = re.sub(rem, "", filename)
 
     return filename
 
