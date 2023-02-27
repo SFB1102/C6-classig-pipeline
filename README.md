@@ -2,7 +2,7 @@
 
 This repository contains the code and documentation for the CLASSIG pipeline. The pipeline can be used to automatically annotate, evaluate, and analyze syntactic structures in modern and historical German texts.  
 
-The pipeline was created for my dissertation *"Computational Methods for Investigating Syntactic Change: Automatic Identification of Extraposition in Modern and Historical German"*.
+The pipeline was created for my dissertation [*"Computational Methods for Investigating Syntactic Change: Automatic Identification of Extraposition in Modern and Historical German"*](#acknowledgement).
 It is accompanied by data sets, results, and models in [the CLASSIG Data repository](https://github.com/rubcompling/classig-data).  
 
 In this repository, the following resources are provided:  
@@ -29,6 +29,7 @@ In this repository, the following resources are provided:
     4.10 [Create Tables](#tables)  
 5. [Models](#models)  
 6. [License](#license)  
+7. [Acknowledgement](#acknowledgement)  
 
 ## Requirements
 
@@ -259,3 +260,9 @@ The `R` folder contains the scripts used to produce the plots and statistics in 
 - The Berkeley parser is licensed under [GPL 2.0](https://opensource.org/licenses/gpl-2.0.php)  
 - NCRF++ is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)  
 - COAST, C6C, and the remaining code are provided under the [MIT license](https://mit-license.org/)  
+
+## Acknowledgement
+
+If you use the pipeline, data, or models in your work, please cite:
+
+- Ortmann, Katrin. 2023. Computational Methods for Investigating Syntactic Change: Automatic Identification of Extraposition in Modern and Historical German. *Bochumer Linguistische Arbeitsberichte (BLA), Vol. 25*. [PDF](https://linguistics.rub.de/forschung/arbeitsberichte/25.pdf)
